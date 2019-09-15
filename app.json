@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/index/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "作业统计助手",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#f6f6f6",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "selectedColor": "#0066FF",
+    "backgroundColor": "#f6f6f6",
+    "borderStyle": "white",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "asserts/icons/home.png",
+      "selectedIconPath": "asserts/icons/home-active.png"
+    },{
+      "pagePath": "pages/index/index",
+      "text": "扫码",
+      "iconPath": "asserts/icons/scan.png",
+      "selectedIconPath": "asserts/icons/scan-active.png"
+    },{ 
+      "pagePath": "pages/index/index",
+      "text": "统计",
+      "iconPath": "asserts/icons/chart-pie-alt.png",
+      "selectedIconPath": "asserts/icons/chart-pie-alt-active.png"
+    }]
+  },
+  "sitemapLocation": "sitemap.json"
+}
