@@ -1,6 +1,7 @@
 {
   "pages": [
-    "pages/index/index"
+    "pages/index/index",
+    "pages/scan/scan"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -20,7 +21,7 @@
       "iconPath": "asserts/icons/home.png",
       "selectedIconPath": "asserts/icons/home-active.png"
     },{
-      "pagePath": "pages/index/index",
+      "pagePath": "pages/scan/scan",
       "text": "扫码",
       "iconPath": "asserts/icons/scan.png",
       "selectedIconPath": "asserts/icons/scan-active.png"

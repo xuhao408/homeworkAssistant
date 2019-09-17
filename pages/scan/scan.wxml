@@ -1,0 +1,7 @@
+<!--pages/scan/scan.wxml-->
+<view style="margin-top:100rpx">
+  <button size="mini" bindtap="scanQR">扫码</button>
+</view>
+<view>
+  您扫描的内容是：{{scanContent}}
+</view>
